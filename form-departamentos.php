@@ -34,6 +34,9 @@ else {
     <link rel="stylesheet" href="css/departamentos.css">
 </head>
 <body>
+<?php
+    include('menu.php');
+?>
     <div class="container">
         <h1><?php echo $titulo; ?> departamento</h1>
         <hr>

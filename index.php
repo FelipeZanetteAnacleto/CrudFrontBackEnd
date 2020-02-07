@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+    <?php
+        include('menu.php');
+    ?>
     <div class="container">
         <h1>CRUD</h1>
         <hr>
