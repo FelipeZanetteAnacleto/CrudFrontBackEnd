@@ -1,4 +1,5 @@
 <?php
+include('valida-sessao.php');
 include('conexao.php');
 #verifica se vai ser uma edição ou inserção
 if (isset($_GET['id_departamento'])) {
